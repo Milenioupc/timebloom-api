@@ -1,0 +1,56 @@
+﻿.gitignore para un proyecto ASP.NET Core
+
+Build outputs
+
+bin/
+obj/
+
+Visual Studio
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+Rider
+
+.idea/
+
+VS Code
+
+.vscode/
+
+DotNet Secret Manager
+
+secrets.json
+
+Configuration files con secretos
+
+appsettings.*.json
+
+Entity Framework Migrations
+
+Migrations/
+
+Logs
+
+*.log
+
+Coverage
+
+coverageReports/
+
+NuGet
+
+*.nupkg
+packages/
+
+Node modules
+
+dependencies
+node_modules/
+
+Mac
+
+.DS_Store
